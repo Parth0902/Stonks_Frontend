@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.file-upload-wrapper {
+    position: relative;
+    width: fit-content;
+}
+
+.file-upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.file-upload-button:hover {
+    background-color: #0056b3;
+}
+
+/* index.css */
+input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #65D16E; /* Maintain the same border color */
+  }
+  
+  input::placeholder {
+    color: #F0F0F0D1; /* Placeholder color to match the design */
+  }
+  
+
+/* index.css */
+/* index.css */
+.flex-col::-webkit-scrollbar {
+    width: 12px; /* Adjust the width of the scrollbar */
+}
+
+.flex-col::-webkit-scrollbar-track {
+    background: #21212deb; /* Track color */
+}
+
+.flex-col::-webkit-scrollbar-thumb {
+    background: #65D16E; /* Thumb color */
+    border-radius: 8px;
+    border: 3px solid transparent; /* Space around the thumb */
+    background-clip: content-box; /* Ensures the space is outside the thumb */
+}
+
+.flex-col::-webkit-scrollbar-thumb:hover {
+    background: #4ca857; /* Hover color */
+}
+
+
+/* index.css */
+.sidebar-container {
+    transition: width 0.3s ease, opacity 0.3s ease;
+}
+
+.sidebar-open {
+    width: 250px;
+    opacity: 1;
+}
+
+.sidebar-closed {
+    width: 80px;
+    opacity: 0;
+}
